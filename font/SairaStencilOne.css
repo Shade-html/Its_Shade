@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Saira Stelcil One Regular';
+  src: url('SairaStencilOne-Regular.ttf') format('ttf');
+  font-weight: 300;
+  font-variant: normal;
+  unicode-range: auto;
+}
+
+body {
+  font-family: 'Saira Stelcin One Regular';
+}
