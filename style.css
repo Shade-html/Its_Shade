@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: url('/images/lonely\ 7777.jpg');
+    background-image: url('images/lonely\ 7777.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -496,7 +496,7 @@ a, i {
     transition: 0.3s cubic-bezier(0.21, 1.09, 0.77, 0.64);
     animation:slides 5s infinite;
     padding: 200px 200px  00px  200px  ;
-    background-image: url('/Cleany/Releaseimgs1/cleany1.png');
+    background-image: url('Cleany/Releaseimgs1/cleany1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -509,31 +509,31 @@ a, i {
 
 @keyframes slides {
     30% {        
-        background-image: url('/Cleany/Releaseimgs1/cleany1.png');
+        background-image: url('Cleany/Releaseimgs1/cleany1.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
     50% {
-        background-image: url('/Cleany/Releaseimgs1/cleany2.png');
+        background-image: url('Cleany/Releaseimgs1/cleany2.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
     100% {
-        background-image: url('/Cleany/Releaseimgs1/cleany5.png');
+        background-image: url('Cleany/Releaseimgs1/cleany5.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
     50%{
-        background-image: url('/Cleany/Releaseimgs1/cleany3.png');
+        background-image: url('Cleany/Releaseimgs1/cleany3.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
     30% {
-        background-image: url('/Cleany/Releaseimgs1/cleany2.png');
+        background-image: url('Cleany/Releaseimgs1/cleany2.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -617,7 +617,7 @@ footer.footer {
         display: none;
     }
     body {
-        background-image: url('/images/1000623038.jpg');
+        background-image: url('images/1000623038.jpg');
     }
 }
 
