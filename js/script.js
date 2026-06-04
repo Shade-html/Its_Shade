@@ -54,9 +54,9 @@ function Display1() {
 
 Notification.requestPermission().then(function (permission) {
     if (permission === "granted") {
-        new Notification("Welcome to Bloxd.io!", {
-            body: "Thanks for visiting our website! We hope you enjoy your stay and have fun playing our game. If you have any questions or feedback, feel free to reach out to us. Happy gaming!",
-            icon: "images/bloxd-icon 1.png"
+        new Notification("Welcome to Shade's Website!", {
+            body: "You might Get Update Notifications Whenever you Opens the Page! Thanks for Visiting!",
+            icon: "images/bloxd-icon1.png"
         });
     }
 });
