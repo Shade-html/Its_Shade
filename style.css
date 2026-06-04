@@ -361,6 +361,11 @@ h1.LargeTextBold {
     transform: translateX(-50%) scale(1);
 }
 
+.github10 a:hover .tooltip-container {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+}
+
 .smallwords .DarkBlueButton:hover .tooltip-container {
     opacity: 1;
     transform: translateX(-50%) scale(1);
@@ -650,4 +655,22 @@ footer.footer {
 
 .LatestUpdate p strong {
     font-size: 20px;
+}
+
+.github10 {
+    position: fixed;
+    top: 10em;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 2px black;
+    background-color: #00000093;
+    backdrop-filter: blur(5px);
+}
+
+.github10 a {
+    color: aliceblue;
+    font-size: 15px;
 }
