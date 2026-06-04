@@ -356,6 +356,22 @@ h1.LargeTextBold {
     background-color: #000000c7;
 }
 
+.github10 a .tooltip-container::after {
+    content: "";
+    position: absolute;
+    top: 40%;
+    left: 100%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 10px;
+    height: 10px;
+    background-color: #000000c7;
+}
+
+.github10 a .tooltip-container {
+    top: 15%;
+    left: -170%;
+}
+
 .LinksInner a:hover .tooltip-container {
     opacity: 1;
     transform: translateX(-50%) scale(1);
@@ -660,7 +676,7 @@ footer.footer {
 .github10 {
     position: fixed;
     top: 10em;
-    right: 0;
+    right: 1em;
     display: flex;
     flex-direction: column;
     padding: 10px;
