@@ -59,4 +59,4 @@ Notification.requestPermission().then(function (permission) {
             icon: "images/bloxd-icon1.png"
         });
     }
-});
+});e
