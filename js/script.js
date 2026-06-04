@@ -51,12 +51,3 @@ function Display1() {
     EverythingMenu1.style.display = "none";
     displays.style.display = "none";
 }
-
-Notification.requestPermission().then(function (permission) {
-    if (permission === "granted") {
-        new Notification("Welcome to Shade's Website!", {
-            body: "You might Get Update Notifications Whenever you Opens the Page! Thanks for Visiting!",
-            icon: "images/bloxd-icon1.png"
-        });
-    }
-});
