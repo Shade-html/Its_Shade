@@ -684,6 +684,7 @@ footer.footer {
     border: solid 2px black;
     background-color: #00000093;
     backdrop-filter: blur(5px);
+    z-index: 100000;
 }
 
 .github10 a {
