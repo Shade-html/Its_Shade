@@ -52,3 +52,11 @@ function Display1() {
     displays.style.display = "none";
 }
 
+Notification.requestPermission().then(function (permission) {
+    if (permission === "granted") {
+        new Notification("Welcome to Bloxd.io!", {
+            body: "Thanks for visiting our website! We hope you enjoy your stay and have fun playing our game. If you have any questions or feedback, feel free to reach out to us. Happy gaming!",
+            icon: "images/bloxd-icon 1.png"
+        });
+    }
+});
