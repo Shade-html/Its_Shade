@@ -4,7 +4,7 @@ function Settings() {
     displays.style.display = "flex";
 }
 
-function Dude() {
+function ReDirector() {
     alert("You're about to Re-Direct to Bloxd.io Without Wasting time! Thanks to Arthur and to Other Devs, we got a Game THAT RUNS IN WEB :DD")
 }
 
@@ -40,14 +40,14 @@ function EverythingMenu1() {
     EverythingMenu1.style.display = "flex";
 }
 
-function Display1() {
+function Exit() {
 
-    let displays = document.getElementsByClassName("Everything")[0];
+    let Exit = document.getElementsByClassName("Everything")[0];
     let EverythingMenu3 = document.getElementById('EverythingMenu3');
     let EverythingMenu2 = document.getElementById('EverythingMenu2');
     let EverythingMenu1 = document.getElementById('EverythingMenu1');
     EverythingMenu3.style.display = "none";
     EverythingMenu2.style.display = "none";
     EverythingMenu1.style.display = "none";
-    displays.style.display = "none";
+    Exit.style.display = "none";
 }
