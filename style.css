@@ -383,6 +383,7 @@ h1.LargeTextBold {
 
 .smallwords .DarkBlueButton:hover .tooltip-container {
     opacity: 1;
+    filter: brightness(0.7);
     transform: translateX(-50%) scale(1);
 }
 
@@ -476,7 +477,8 @@ a, i {
 .smallwords {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    padding: 10px;
+    text-align: left;
 }
 
 .smallwords p {
@@ -489,7 +491,7 @@ a, i {
 
 .releasedpack01 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     
 }
@@ -524,7 +526,7 @@ a, i {
 }
 
 .image83:hover {
-    transform: scale(2);
+    transform: scale(1.5);
 }
 
 @keyframes slides {
